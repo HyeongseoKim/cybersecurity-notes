@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# 비밀 정보
+secrets.txt
+*.key
+*.pem
+.env
+
+# 개인 문서
+*.pdf
