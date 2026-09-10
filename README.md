@@ -46,4 +46,4 @@ Grade 12 international student in Ontario, Canada.
 
 ## Currently working on
 
-- Working through OverTheWire Bandit (currently Bandit 17->18), writing up each level as I solve it
+- Working through OverTheWire Bandit (currently level 17->18), writing up each level as I solve it
