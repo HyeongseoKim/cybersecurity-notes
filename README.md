@@ -1,4 +1,4 @@
-   | 2026-09-10 | Wrote up Bandit 16→17 (port scan → SSL port → private key login), set up an SSH key for GitHub | `nmap -sV`, self-signed certificates, and that `r` and `x` mean different things on a directory # Cybersecurity Learning Notes
+# Cybersecurity Learning Notes
 
 Self-directed cybersecurity practice. My high school does not offer computer science
 or computer engineering courses, so I work through wargames, build small tools, and
@@ -23,10 +23,9 @@ Grade 12 international student in Ontario, Canada.
 
 ## Progress log
 
-   | 2026-09-10 | Wrote up Bandit 16→17 (port scan → SSL port → private key login), set up an SSH key for GitHub | `nmap -sV`, self-signed certificates, and that `r` and `x` mean different things on a directory |
-
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-09-10 | Wrote up Bandit 16→17 and set up an SSH key for GitHub | `nmap -sV`, self-signed certificates, and that `r` and `x` mean different things on a directory |
 | 2026-09-09 | Restructured the repository: moved notes into `notes/`, rewrote the README | GitHub moves a file when you edit its path in the filename field |
 
 ---
@@ -47,4 +46,4 @@ Grade 12 international student in Ontario, Canada.
 
 ## Currently working on
 
-- Working through OverTheWire Bandit (currently Bandit  17->18 ), writing up each level as I solve it
+- Working through OverTheWire Bandit (currently Bandit 17->18), writing up each level as I solve it
