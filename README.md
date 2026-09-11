@@ -25,6 +25,7 @@ Grade 12 international student in Ontario, Canada.
 
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-09-11 | Solved and wrote up Bandit 17→18 | `man -k` for finding a command by keyword, and how `diff` marks changed, added, and deleted lines |
 | 2026-09-10 | Wrote up Bandit 16→17 and set up an SSH key for GitHub | `nmap -sV`, self-signed certificates, and that `r` and `x` mean different things on a directory |
 | 2026-09-09 | Restructured the repository: moved notes into `notes/`, rewrote the README | GitHub moves a file when you edit its path in the filename field |
 
