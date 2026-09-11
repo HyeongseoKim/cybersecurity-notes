@@ -32,7 +32,7 @@ Grade 12 international student in Ontario, Canada.
 
 ## Wargames
 
-**OverTheWire — Bandit:** Level 17 of 34
+**OverTheWire — Bandit:** Level 18 of 34
 
 **picoCTF:** not started yet
 
@@ -46,4 +46,4 @@ Grade 12 international student in Ontario, Canada.
 
 ## Currently working on
 
-- Working through OverTheWire Bandit (currently level 17->18), writing up each level as I solve it
+- Working through OverTheWire Bandit (currently level 18->19), writing up each level as I solve it
