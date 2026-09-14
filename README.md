@@ -25,6 +25,7 @@ Grade 12 international student in Ontario, Canada.
 
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-09-14 | Solved and wrote up Bandit 18→19 | Running a single command over SSH without opening a shell, and spotting a modified file from its owner and timestamp |
 | 2026-09-11 | Solved and wrote up Bandit 17→18 | `man -k` for finding a command by keyword, and how `diff` marks changed, added, and deleted lines |
 | 2026-09-10 | Wrote up Bandit 16→17 and set up an SSH key for GitHub | `nmap -sV`, self-signed certificates, and that `r` and `x` mean different things on a directory |
 | 2026-09-09 | Restructured the repository: moved notes into `notes/`, rewrote the README | GitHub moves a file when you edit its path in the filename field |
@@ -33,7 +34,7 @@ Grade 12 international student in Ontario, Canada.
 
 ## Wargames
 
-**OverTheWire — Bandit:** Level 18 of 34
+**OverTheWire — Bandit:** Level 19 of 34
 
 **picoCTF:** not started yet
 
@@ -47,4 +48,4 @@ Grade 12 international student in Ontario, Canada.
 
 ## Currently working on
 
-- Working through OverTheWire Bandit (currently level 18->19), writing up each level as I solve it
+- Working through OverTheWire Bandit (currently level 19->20), writing up each level as I solve it
