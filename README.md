@@ -38,7 +38,7 @@ Grade 12 international student in Ontario, Canada.
 
 **OverTheWire — Bandit:** Level 20 of 34
 
-**picoCTF:** not started yet
+**picoCTF:** not started 1 challenge solved
 
 ---
 
