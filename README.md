@@ -25,6 +25,7 @@ Grade 12 international student in Ontario, Canada.
 
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-09-17 | Started picoCTF and solved my first Web Exploitation challenge, Inspect HTML | Reading page source with the web inspector, and that a flag can hide in code the page never shows |
 | 2026-09-14 | Solved and wrote up Bandit 19→20 | The setuid (`s`) bit — a program running as its owner instead of the user, and why that matters for privilege escalation |
 | 2026-09-14 | Solved and wrote up Bandit 18→19 | Running a single command over SSH without opening a shell, and spotting a modified file from its owner and timestamp |
 | 2026-09-11 | Solved and wrote up Bandit 17→18 | `man -k` for finding a command by keyword, and how `diff` marks changed, added, and deleted lines |
@@ -37,7 +38,7 @@ Grade 12 international student in Ontario, Canada.
 
 **OverTheWire — Bandit:** Level 20 of 34
 
-**picoCTF:** not started yet
+**picoCTF:** not started 1 challenge solved
 
 ---
 
