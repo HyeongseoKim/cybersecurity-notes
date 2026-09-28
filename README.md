@@ -13,6 +13,8 @@ Grade 12 international student in Ontario, Canada.
 | Folder | Contents |
 |---|---|
 | `bandit/` | Level-by-level notes from OverTheWire Bandit — techniques and mistakes, no passwords |
+| `picoctf/` | Write-ups for picoCTF challenges, mostly Web Exploitation |
+| `tools/` | Small scripts I wrote myself, with a note on why I built each one |
 | `notes/` | Linux and shell notes written in my own words |
 
 > **On spoilers:** I do not post passwords or flag values. OverTheWire asks players not to
@@ -25,6 +27,7 @@ Grade 12 international student in Ontario, Canada.
 
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-09-28 | Solved and wrote up picoCTF Cookies (Web Exploitation) | Cookies and stateless HTTP — the server does not remember me, so it hands me a cookie I send back in a request header; and that a predictable cookie value (0, 1, 2...) is the actual weakness |
 | 2026-09-24 | Solved and wrote up picoCTF GET aHEAD (Web Exploitation) | HTTP methods — a request starts with a verb like GET or HEAD, a browser only ever sends GET, and the flag was in the response headers, which a browser never draws on the screen |
 | 2026-09-17 | Started picoCTF and solved my first Web Exploitation challenge, Inspect HTML | Reading page source with the web inspector, and that a flag can hide in code the page never shows |
 | 2026-09-14 | Solved and wrote up Bandit 19→20 | The setuid (`s`) bit — a program running as its owner instead of the user, and why that matters for privilege escalation |
@@ -39,7 +42,7 @@ Grade 12 international student in Ontario, Canada.
 
 **OverTheWire — Bandit:** Level 20 of 34
 
-**picoCTF:** 2 challenge solved
+**picoCTF:** 2 challenges solved
 
 ---
 
@@ -51,4 +54,6 @@ Grade 12 international student in Ontario, Canada.
 
 ## Currently working on
 
-- Working through OverTheWire Bandit (currently level 20->21)
+- Solving picoCTF Web Exploitation challenges and writing up each one
+- Next: PortSwigger Web Security Academy — web and app security is the area I want to work in
+- OverTheWire Bandit is paused at level 20 while I focus on web
