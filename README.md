@@ -14,6 +14,7 @@ Grade 12 international student in Ontario, Canada.
 |---|---|
 | `bandit/` | Level-by-level notes from OverTheWire Bandit — techniques and mistakes, no passwords |
 | `picoctf/` | Write-ups for picoCTF challenges, mostly Web Exploitation |
+| `portswigger/` | Write-ups for PortSwigger Web Security Academy labs |
 | `tools/` | Small scripts I wrote myself, with a note on why I built each one |
 | `notes/` | Linux and shell notes written in my own words |
 
@@ -27,6 +28,7 @@ Grade 12 international student in Ontario, Canada.
 
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-10-08 | Solved and wrote up my first PortSwigger lab: SQL injection in a WHERE clause (Apprentice) | SQL injection — my input gets built into the server's query; `'` breaks out of the string, `OR 1=1` cancels the filter, and `--` drops the rest, so `' OR 1=1 --` returned every hidden product |
 | 2026-10-01 | Solved and wrote up picoCTF Where are the robots (Web Exploitation) | `robots.txt` — a site can ask search engines not to list a page, but that is a request and not a lock; the file ends up pointing at the very pages the site wanted to keep quiet, which is why hiding a page is not the same as protecting it |
 | 2026-09-28 | Solved and wrote up picoCTF Cookies (Web Exploitation) | Cookies and stateless HTTP — the server does not remember me, so it hands me a cookie I send back in a request header; and that a predictable cookie value (0, 1, 2...) is the actual weakness |
 | 2026-09-24 | Solved and wrote up picoCTF GET aHEAD (Web Exploitation) | HTTP methods — a request starts with a verb like GET or HEAD, a browser only ever sends GET, and the flag was in the response headers, which a browser never draws on the screen |
