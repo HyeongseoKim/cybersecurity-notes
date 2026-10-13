@@ -28,6 +28,7 @@ Grade 12 international student in Ontario, Canada.
 
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-10-11 | Solved and wrote up PortSwigger lab 3: UNION attack, counting columns (Apprentice) | A UNION attack needs both sides to have the same number of columns, so step one is counting them — `ORDER BY n` raised until it errors, or `UNION SELECT NULL,...` until the error stops; both gave 3. Also learned the injection point (category parameter) matters as much as the payload |
 | 2026-10-09 | Solved and wrote up PortSwigger lab 2: SQL injection login bypass (Apprentice) | The same `' OR 1=1 --` from last lab, but on a login form — `OR 1=1` makes every row pass so the password check (removed by `--`) no longer matters, and the first user (administrator) is logged in; same technique, different purpose |
 | 2026-10-08 | Solved and wrote up my first PortSwigger lab: SQL injection in a WHERE clause (Apprentice) | SQL injection — my input gets built into the server's query; `'` breaks out of the string, `OR 1=1` cancels the filter, and `--` drops the rest, so `' OR 1=1 --` returned every hidden product |
 | 2026-10-01 | Solved and wrote up picoCTF Where are the robots (Web Exploitation) | `robots.txt` — a site can ask search engines not to list a page, but that is a request and not a lock; the file ends up pointing at the very pages the site wanted to keep quiet, which is why hiding a page is not the same as protecting it |
