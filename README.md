@@ -28,6 +28,7 @@ Grade 12 international student in Ontario, Canada.
 
 | Date | What I did | What was new to me |
 |---|---|---|
+| 2026-10-27 | Solved and wrote up PortSwigger lab 5: querying the database type and version on Oracle (Practitioner) | Oracle needs `FROM` in every `SELECT`, so `UNION SELECT NULL,NULL FROM dual` fills the FROM slot; the version string lives in the `banner` column of `v$version`. Came back after a 2-week break and had to relearn the `dual` trick from the cheat sheet |
 | 2026-10-13 | Solved and wrote up PortSwigger lab 4: UNION attack, retrieving data from other tables (Apprentice) | First time reading real data out of the database — counted columns (2), checked both accept text with `'a','a'`, then `UNION SELECT username, password FROM users` to pull the admin's password and log in; got stuck until I noticed I had left out `UNION` |
 | 2026-10-11 | Solved and wrote up PortSwigger lab 3: UNION attack, counting columns (Apprentice) | A UNION attack needs both sides to have the same number of columns, so step one is counting them — `ORDER BY n` raised until it errors, or `UNION SELECT NULL,...` until the error stops; both gave 3. Also learned the injection point (category parameter) matters as much as the payload |
 | 2026-10-09 | Solved and wrote up PortSwigger lab 2: SQL injection login bypass (Apprentice) | The same `' OR 1=1 --` from last lab, but on a login form — `OR 1=1` makes every row pass so the password check (removed by `--`) no longer matters, and the first user (administrator) is logged in; same technique, different purpose |
@@ -50,7 +51,7 @@ Grade 12 international student in Ontario, Canada.
 
 **picoCTF:** 4 challenges solved (Web Exploitation)
 
-**PortSwigger Web Security Academy:** 4 Apprentice labs solved (SQL injection)
+**PortSwigger Web Security Academy:** 5 labs solved (SQL injection) - 4 Appretice, ! Practitioner
 
 ---
 
@@ -62,6 +63,6 @@ Grade 12 international student in Ontario, Canada.
 
 ## Currently working on
 
-- Working through the SQL injection track on PortSwigger Web Security Academy, writing up each lab
+- Working through the SQL injection track on PortSwigger Web Security Academy, writing up each lab (Lighter pcae through Nov-Dec for IELTS and finals)
 - Next topic: Examining the database (finding table and column names with `information_schema`)
 - OverTheWire Bandit is paused at level 20 while I focus on web security
