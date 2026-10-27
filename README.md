@@ -51,7 +51,7 @@ Grade 12 international student in Ontario, Canada.
 
 **picoCTF:** 4 challenges solved (Web Exploitation)
 
-**PortSwigger Web Security Academy:** 5 labs solved (SQL injection) - 4 Appretice, ! Practitioner
+**PortSwigger Web Security Academy:** 5 labs solved (SQL injection) - 4 Apprentice, ! Practitioner
 
 ---
 
@@ -63,6 +63,6 @@ Grade 12 international student in Ontario, Canada.
 
 ## Currently working on
 
-- Working through the SQL injection track on PortSwigger Web Security Academy, writing up each lab (Lighter pcae through Nov-Dec for IELTS and finals)
+- Working through the SQL injection track on PortSwigger Web Security Academy, writing up each lab (lighter pace through Nov-Dec for IELTS and finals)
 - Next topic: Examining the database (finding table and column names with `information_schema`)
 - OverTheWire Bandit is paused at level 20 while I focus on web security
